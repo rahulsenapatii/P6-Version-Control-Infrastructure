@@ -7,6 +7,7 @@ resource "aws_instance" "web_server" {
   instance_type = "t2.micro"
 
   tags = {
-    Name = "WebServer-v1"
+    Name        = "WebServer-v2"
+    Environment = "Production"
   }
 }
